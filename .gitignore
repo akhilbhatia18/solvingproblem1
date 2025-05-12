@@ -1,0 +1,66 @@
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+*.webp
+
+# Data and Output files
+*.json
+*.npz
+*.out
+*.log
+*.txt
+*.results
+*.xlsx
+*.csv
+*.dat
+*.tar.gz
+
+# Output directories
+output/
+results/
+models/
+processed_data/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+.ENV/
+virtualenv/
+samplevenv/
+workenv/
+
+# TOML and Pipenv files
+*.toml
+Pipfile
+Pipfile.lock
+!pyproject.toml  # Keep this if you're using it for project configuration
